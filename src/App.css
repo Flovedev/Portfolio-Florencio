@@ -1,5 +1,13 @@
-.App {
-  text-align: center;
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  cursor: default;
+}
+
+body {
+  background-color: black;
+  color: white;
 }
 
 .starfield-container {
